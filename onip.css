@@ -1,0 +1,36 @@
+.container{
+    background-color: rgb(181, 210, 207);
+ 
+}
+h1{
+    color: white ;
+    font-weight: bold;
+    
+}
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+            background-color: rgb(65, 139, 207);
+            padding: 15px 0 0;
+            
+        }
+
+
+.lien {
+            flex: 100%;
+           background-color: rgb(8, 60, 171);
+            text-align: center;
+            padding: 1.5%;
+        }
+.lien a {
+            margin: 5px;
+            padding: 5px 10px;
+            text-decoration: none;
+            color: white;
+        }
+.lien a:hover{
+            background-color: rgb(19, 215, 237);
+            text-decoration: underline;
+        }

@@ -1,0 +1,59 @@
+.container{
+    background-color: rgb(181, 210, 207);
+ 
+}
+h1{
+    color: white ;
+    font-weight: bold;
+    
+}
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+            background-color: rgb(31, 113, 191);
+            padding: 15px 0 0;
+            
+        }
+        body {
+            /* Définir l'image de fond */
+            background-image: url("site.jpg");
+            
+            /* Répéter l'image horizontalement et verticalement */
+            background-repeat: repeat;
+        
+            /* Centrer l'image de fond horizontalement et verticalement */
+            background-position: center center;
+        
+            /* Fixer l'image de fond pour qu'elle ne défiler pas avec la page */
+            background-attachment: fixed;
+        
+            /* Ajuster la taille de l'image de fond pour remplir tout l'écran */
+            background-size: cover;
+        }
+        
+.lien {
+            flex: 100%;
+           background-color: rgba(8, 60, 171, 0);
+            text-align: center;
+            padding: 1.5%;
+        }
+.lien a {
+            margin: 5px;
+            padding: 5px 10px;
+            text-decoration: none;
+            color: rgb(11, 22, 85);
+            font-weight: bold;
+    
+        }
+.lien a:hover{
+            background-color: rgb(19, 215, 237);
+            text-decoration: underline;
+        }
+    fieldset{
+        background-color: rgba(193, 228, 248, 0.639);
+    }
+
+
+

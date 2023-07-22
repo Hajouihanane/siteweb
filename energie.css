@@ -1,0 +1,37 @@
+input[type~="text"]{
+    border-radius: 10px;
+    height: 20px;
+}
+
+.aj input{
+    background-color: rgb(9, 116, 239);
+    border-radius: 10px;
+    padding: 5px 15px;
+    text-align: center;
+    flex: 100%;
+}
+
+.agt fieldset{
+    background-color: rgb(106, 167, 220);
+}
+.cont{
+    background-color: rgb(190, 209, 238);
+    border-style: solid;
+    border-color: rgba(6, 80, 240, 0.26);
+}
+th{
+    background-color: rgba(255, 235, 205, 0.559);
+}
+table{
+    border-style:double ;
+    size: 200px;
+}
+label{
+    color: rgb(2, 14, 41);
+    font-weight: bold;
+
+}
+legend{
+    color: rgba(10, 5, 44, 0.863);
+    font-weight: bold;
+}
